@@ -1,6 +1,6 @@
 import { 
   Clock, 
-  Tool, 
+  Wrench, 
   UserCheck, 
   Banknote, 
   MapPin, 
@@ -14,7 +14,7 @@ const features = [
     description: "Доставка техники на объект в течение 2-4 часов после оформления заказа"
   },
   {
-    icon: <Tool className="w-10 h-10 text-primary" />,
+    icon: <Wrench className="w-10 h-10 text-primary" />,
     title: "Исправная техника",
     description: "Вся техника в отличном состоянии и регулярно проходит ТО"
   },
